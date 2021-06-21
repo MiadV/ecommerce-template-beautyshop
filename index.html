@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOX ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <title>Ecommerce Beauty Shop</title>
+  </head>
+  <body>
+    <!-- BODY CLICK CATCHER -->
+    <div id="body-click-catcher"></div>
+
+    <!-- BACK TO TOP -->
+    <a href="#" id="back-to-top">
+      <i class="bx bx-chevron-up"></i>
+    </a>
+
+    <!-- HEADER -->
+    <header>
+      <!-- TOP BAR -->
+      <div class="topbar">
+        <p>Free shipping, 30-day return or refund</p>
+        <i class="bx bx-x" id="topbar__close"></i>
+      </div>
+
+      <!-- NAVBAR -->
+      <div class="navbar" id="navbar">
+        <!-- MOBILE ONLY -->
+        <div class="navbar__mobile">
+          <a href="/#" class="navbar__logo">
+            <img src="./assets/images/logo-dark.png" alt="logo" />
+          </a>
+          <i class="bx bx-menu" id="toggle-menu"></i>
+        </div>
+
+        <!-- NAV CONTENT -->
+        <div class="navbar__content container--md">
+          <!-- BRANDING -->
+          <a href="/#" class="navbar__logo">
+            <img src="./assets/images/logo-dark.png" alt="logo" />
+          </a>
+
+          <!-- NAV MENU -->
+          <ul class="navbar__links">
+            <li><a href="#" class="nav_link">Home</a></li>
+            <li><a href="#collections" class="nav_link">Collections</a></li>
+            <li>
+              <a href="#best-sellers" class="btn nav_link">Best Sellers</a>
+            </li>
+            <li><a href="#blogs" class="btn nav_link">Blogs</a></li>
+          </ul>
+
+          <!-- NAV ICONS -->
+          <div class="navbar__icons">
+            <a href="#" title="search">
+              <i class="bx bx-search-alt"></i>
+            </a>
+            <a href="#" title="wishlist">
+              <i class="bx bx-heart"></i>
+            </a>
+            <a href="#" title="cart">
+              <i class="bx bx-cart"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section id="hero">
+        <div class="hero container--md">
+          <div class="hero__content">
+            <h2>TOP COLLECTION</h2>
+            <h1>New Design 2021</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa in
+              eaque atque officia, architecto fugit?
+            </p>
+            <a href="/#" class="btn btn--filled">SHOP NOW &rarr;</a>
+          </div>
+
+          <img
+            class="hero__img"
+            src="./assets/images/header-1.png"
+            alt="hero"
+          />
+        </div>
+      </section>
+    </main>
+    <div class="container--md">
+      <!-- COLLECTIONS -->
+      <section class="collections" id="collections">
+        <h2 class="section__title">Collections</h2>
+        <div class="collections__grid">
+          <div class="banner">
+            <img
+              src="./assets/images/banner-1.jpg"
+              alt="banner-1"
+              class="banner__img"
+            />
+            <div class="banner__text">
+              <h2>Lipstick Collections</h2>
+              <a class="btn btn--link" href="/#">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="banner">
+            <img
+              src="./assets/images/banner-2.jpg"
+              alt="banner-2"
+              class="banner__img"
+            />
+            <div class="banner__text">
+              <h2>Cream Collections</h2>
+              <a class="btn btn--link" href="/#">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BEST SELLERS -->
+      <section class="best-sellers" id="best-sellers">
+        <h2 class="section__title">Best Sellers</h2>
+        <div class="best-sellers__grid">
+          <div class="product">
+            <img
+              src="./assets/images/product-1.jpg"
+              alt="product"
+              class="product__img"
+            />
+            <div class="product__actions">
+              <i class="bx bx-heart"></i>
+              <i class="bx bx-zoom-in"></i>
+            </div>
+
+            <div class="product__info">
+              <h4 class="product__title">Test Product</h4>
+              <a href="#" class="btn add-to-cart">+ Add To Cart</a>
+              <div class="product__rating">
+                <i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i>
+              </div>
+              <h5 class="product__price">
+                <span class="product__price--before">$49.50</span>
+                $35.90
+              </h5>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./assets/images/product-2.jpg"
+              alt="product"
+              class="product__img"
+            />
+            <div class="product__actions">
+              <i class="bx bx-heart"></i>
+              <i class="bx bx-zoom-in"></i>
+            </div>
+
+            <div class="product__info">
+              <h4 class="product__title">Test Product</h4>
+              <a href="#" class="btn add-to-cart">+ Add To Cart</a>
+              <div class="product__rating">
+                <i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i>
+              </div>
+              <h5 class="product__price">
+                <span class="product__price--before">$49.50</span>
+                $35.90
+              </h5>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./assets/images/product-3.jpg"
+              alt="product"
+              class="product__img"
+            />
+            <div class="product__actions">
+              <i class="bx bx-heart"></i>
+              <i class="bx bx-zoom-in"></i>
+            </div>
+
+            <div class="product__info">
+              <h4 class="product__title">Test Product</h4>
+              <a href="#" class="btn add-to-cart">+ Add To Cart</a>
+              <div class="product__rating">
+                <i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i>
+              </div>
+              <h5 class="product__price">
+                <span class="product__price--before">$49.50</span>
+                $35.90
+              </h5>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./assets/images/product-4.jpg"
+              alt="product"
+              class="product__img"
+            />
+            <div class="product__actions">
+              <i class="bx bx-heart"></i>
+              <i class="bx bx-zoom-in"></i>
+            </div>
+
+            <div class="product__info">
+              <h4 class="product__title">Test Product</h4>
+              <a href="#" class="btn add-to-cart">+ Add To Cart</a>
+              <div class="product__rating">
+                <i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i>
+              </div>
+              <h5 class="product__price">
+                <span class="product__price--before">$49.50</span>
+                $35.90
+              </h5>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./assets/images/product-5.jpg"
+              alt="product"
+              class="product__img"
+            />
+            <div class="product__actions">
+              <i class="bx bx-heart"></i>
+              <i class="bx bx-zoom-in"></i>
+            </div>
+
+            <div class="product__info">
+              <h4 class="product__title">Test Product</h4>
+              <a href="#" class="btn add-to-cart">+ Add To Cart</a>
+              <div class="product__rating">
+                <i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i>
+              </div>
+              <h5 class="product__price">
+                <span class="product__price--before">$49.50</span>
+                $35.90
+              </h5>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./assets/images/product-6.jpg"
+              alt="product"
+              class="product__img"
+            />
+            <div class="product__actions">
+              <i class="bx bx-heart"></i>
+              <i class="bx bx-zoom-in"></i>
+            </div>
+
+            <div class="product__info">
+              <h4 class="product__title">Test Product</h4>
+              <a href="#" class="btn add-to-cart">+ Add To Cart</a>
+              <div class="product__rating">
+                <i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i>
+              </div>
+              <h5 class="product__price">
+                <span class="product__price--before">$49.50</span>
+                $35.90
+              </h5>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./assets/images/product-7.jpg"
+              alt="product"
+              class="product__img"
+            />
+            <div class="product__actions">
+              <i class="bx bx-heart"></i>
+              <i class="bx bx-zoom-in"></i>
+            </div>
+
+            <div class="product__info">
+              <h4 class="product__title">Test Product</h4>
+              <a href="#" class="btn add-to-cart">+ Add To Cart</a>
+              <div class="product__rating">
+                <i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i>
+              </div>
+              <h5 class="product__price">
+                <span class="product__price--before">$49.50</span>
+                $35.90
+              </h5>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./assets/images/product-8.jpg"
+              alt="product"
+              class="product__img"
+            />
+            <div class="product__actions">
+              <i class="bx bx-heart"></i>
+              <i class="bx bx-zoom-in"></i>
+            </div>
+
+            <div class="product__info">
+              <h4 class="product__title">Test Product</h4>
+              <a href="#" class="btn add-to-cart">+ Add To Cart</a>
+              <div class="product__rating">
+                <i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i><i class="bx bx-star"></i
+                ><i class="bx bx-star"></i>
+              </div>
+              <h5 class="product__price">
+                <span class="product__price--before">$49.50</span>
+                $35.90
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOGS -->
+      <section class="blogs" id="blogs">
+        <h2 class="section__title">Latest Blogs</h2>
+        <div class="blogs__grid">
+          <div class="blog__item">
+            <div class="blog__item__img">
+              <img src="./assets/images/blog-1.jpg" alt="blog" />
+            </div>
+
+            <div class="blog__item__text">
+              <div class="date">
+                <i class="bx bx-calendar-check"></i> 15 January 2021
+              </div>
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <a href="/#" class="btn btn--link">READ MORE</a>
+            </div>
+          </div>
+          <div class="blog__item">
+            <div class="blog__item__img">
+              <img src="./assets/images/blog-2.jpg" alt="blog" />
+            </div>
+
+            <div class="blog__item__text">
+              <div class="date">
+                <i class="bx bx-calendar-check"></i> 15 January 2021
+              </div>
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <a href="/#" class="btn btn--link">READ MORE</a>
+            </div>
+          </div>
+          <div class="blog__item">
+            <div class="blog__item__img">
+              <img src="./assets/images/blog-3.jpg" alt="blog" />
+            </div>
+
+            <div class="blog__item__text">
+              <div class="date">
+                <i class="bx bx-calendar-check"></i> 15 January 2021
+              </div>
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <a href="/#" class="btn btn--link">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="footer__grid container--md">
+        <div class="footer__grid__item">
+          <a href="/#" class="footer__logo">
+            <img src="./assets/images/logo-light.png" alt="logo" />
+          </a>
+          <p class="footer__about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            laborum velit pariatur fugit sapiente tenetur.
+          </p>
+          <img src="./assets/images/payment.bmp" alt="payment types" />
+        </div>
+        <div class="footer__grid__item">
+          <h6>SHOPPING</h6>
+          <ul class="footer__links">
+            <li><a href="/#">Clothing Store</a></li>
+            <li><a href="/#">Trending Products</a></li>
+            <li><a href="/#">Accessories</a></li>
+            <li><a href="/#">Sale</a></li>
+          </ul>
+        </div>
+        <div class="footer__grid__item">
+          <h6>Links</h6>
+          <ul class="footer__links">
+            <li><a href="/#">Contact Us</a></li>
+            <li><a href="/#">Payment Methods</a></li>
+            <li><a href="/#">Delivery</a></li>
+            <li><a href="/#">Return & Exchange</a></li>
+          </ul>
+        </div>
+        <div class="footer__grid__item">
+          <h6>NEWS LETTER</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            deleniti.
+          </p>
+
+          <form class="news-letter" action="/#">
+            <input
+              class="email-input"
+              type="email"
+              name="news"
+              placeholder="Your Email"
+            />
+            <button type="submit">
+              <i class="bx bx-envelope"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__bottom">&copy; COPYRIGHT GOES HERE 2021</div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
