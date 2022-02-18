@@ -1,0 +1,35 @@
+{
+  "name": "beauty-shop-template",
+  "version": "2.0.0",
+  "description": "E-Commerce Beauty Shop - Template",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiadV/ecommerce-template-beautyshop.git"
+  },
+  "keywords": [
+    "blog template",
+    "html template"
+  ],
+  "author": {
+    "name": "Miad V",
+    "email": "miadv.biz@gmail.com",
+    "url": "http://miadv.dev/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiadV/ecommerce-template-beautyshop/issues"
+  },
+  "homepage": "https://github.com/MiadV/ecommerce-template-beautyshop#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "sass": "^1.49.8",
+    "vite": "^2.8.0"
+  }
+}
